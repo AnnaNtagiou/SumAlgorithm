@@ -138,7 +138,7 @@ int main(int argc, char* argv[])
 	/* Diagnostic for the user */
 	fprintf(stderr, " -%d Sentence(s) structure discern ...", nrSentCount);
 	/* QSort */
-	qsort(ptrSentence, nrSents, sizeof(Sentence), _SentQCmp);
+	//qsort(ptrSentence, nrSents, sizeof(Sentence), _SentQCmp);
 	fprintf(stderr, "complete!\n\n");
 	/* Return Results */
 	for(nrSentCount = 0; nrSentCount < nrSents; nrSentCount++)
